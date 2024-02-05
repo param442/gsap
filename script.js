@@ -29,7 +29,7 @@ tl.from(".section2 .card",{
     scrollTrigger:{
     trigger:".section2 .card",
     scroller:"body",
-    markers:true,
+    //markers:true,
     start:"top 80%",
     end:"top 60%",
     scrub: 2,
