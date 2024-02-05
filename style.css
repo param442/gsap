@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html ,
+body{
+height: 100%;
+width: 100%;
+color:white;
+background-color: black;
+}
+
+nav{
+    position: relative;
+    border-bottom: 1px solid white;
+    height: 7%;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 40px;
+background-color: black;
+}
+nav .part{
+    user-select: none;
+    cursor: pointer;
+    margin: 0 3px;
+}
+nav .part2  {
+    display: flex;
+    gap: 35px;
+}
+.section{
+    width: 100%;
+ background-color: black;
+    height: 100%;
+   display: flex;
+}
+.section .subsection{
+    height: 100%;
+    width: 50%;
+ 
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 50px;
+    padding-left: 30px;
+}
+.section .img{
+    width: 50%;
+    height: 100%;
+    
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.section .img img{
+    object-fit: cover;
+    height: 60%;
+    border-radius: 40px;
+}
+.section2{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex; align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.section2 .card{
+width: 25%;
+text-align: center;
+border: 2px solid white;
+height: 30%;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: space-evenly;
+border-radius: 25px;
+
+}
+@media  screen and (min-device-width: 360px) and (max-device-width: 744px){
+    
+nav {
+   font-size: 6px;
+}
+#subsection1 h1{
+font-size: 50px;
+}
+nav .part2 {
+    display: flex;
+    gap: 14px;
+}
+.section .img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section .img img {
+    height: 50%;
+    border-radius: 10px;
+}
+.section{
+ 
+    display: flex;
+    flex-direction: column;
+}
+
+.section2{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex; align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+.section2 .card{
+    height: 25%;
+    width: 80%;
+    
+}
+}
+@media  screen and (min-device-width: 744px) and (max-device-width: 1023px){
+    
+nav {
+   font-size: 15px;
+}
+#subsection1 h1{
+    font-size: 110px;
+}
+nav .part2 {
+    display: flex;
+    gap: 14px;
+}
+.section .img img {
+    height: 60%;
+}
+.section{
+ 
+    display: flex;
+    flex-direction: column;
+}
+.section .img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+@media screen and (min-device-width: 1280px) and (max-device-width: 1476px) {
+    #subsection1 h1{
+        font-size: 80px;
+        }
+        
+
+}
+@media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
+    #subsection1 h1{
+        font-size: 60px;
+        }
+        
+.section .img img {
+    height: 70%;
+}
+}
